@@ -12,9 +12,11 @@ class DynamicController < ApplicationController
 	end
 	
   def one_gossip
-
+    #@gossip = Gossip.all
+    @one_gossip = Gossip.find_by(id: params[:i])
+    
   end
-
+  
 
 
 end
