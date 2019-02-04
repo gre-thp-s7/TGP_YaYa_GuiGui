@@ -25,3 +25,10 @@ les link utiles pour tester :
 
 - Iannis
 - Guillaume
+
+
+
+#liens utilisé
+le template boots-strap utilisé
+https://startbootstrap.com/template-overviews/heroic-features/
+
