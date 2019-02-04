@@ -4,7 +4,22 @@
 ### Clone notre repo et c'est parti !
 
 - Postionne toi dans le dossier,
-- Bundle install
+- `Bundle install`
+- `rails db:create`   #va te créer la base de donnée nécéssaire au bon fonctionnement
+- `rails server`
+- go ton browser et tape `localhost:3000`
+
+voila, tu est sur nortre super site/appli TGP
+les link utiles pour tester :
+	- `/team`
+	- `/contact`
+
+	
+
+
+
+
+
 
 ### La TEAM !
 
