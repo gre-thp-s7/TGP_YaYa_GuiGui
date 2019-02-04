@@ -12,11 +12,12 @@ class DynamicController < ApplicationController
 	end
 	
   def one_gossip
-  	puts "@"*60
-  	puts "je suis dans one_gossip du dynamicController /server /terminal"
-  	puts "@"*60
-  end
 
+    #@gossip = Gossip.all
+    @one_gossip = Gossip.find_by(id: params[:i])
+    
+  end
+  
 
 
 end
