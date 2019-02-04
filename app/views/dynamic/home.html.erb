@@ -1,24 +1,19 @@
 <h1 class="text-primary">Bienvenue sur THE GOSSIP PROJECT</h1>
 
+
+
+
+
+
 <div class="card">
   <div class="card-header">
-    Featured
+    <%= @gossip.id %>
   </div>
   <div class="card-body">
-    <h5 class="card-title"><%= @gossip.user.first_name %> </h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <h5 class="card-title"><%= @gossip.user.first_name %></h5>
+    <p class="card-text"><%= @gossip.title %></p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
 
 
-<div class="card">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>

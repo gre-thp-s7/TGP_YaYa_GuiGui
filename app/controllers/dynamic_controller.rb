@@ -5,8 +5,8 @@ class DynamicController < ApplicationController
   	puts "je suis dans home du dynamicController /server /terminal"
   	puts "@"*60
 
-    @gossip = Gossip.first
-    puts @gossip
+    @gossip = Gossip.all
+
 
 
 
