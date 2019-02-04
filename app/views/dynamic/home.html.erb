@@ -4,16 +4,17 @@
 
 
 
-
+<% @gossip.each do |i| %>
 <div class="card">
   <div class="card-header">
-    <%= @gossip.id %>
+    <p>potin n°<%= i.id %></p>
   </div>
   <div class="card-body">
-    <h5 class="card-title"><%= @gossip.user.first_name %></h5>
-    <p class="card-text"><%= @gossip.title %></p>
+    <h5 class="card-title"><%= i.user.first_name %></h5>
+    <p class="card-text"><%= i.title %></p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
+<% end %>
 
 

@@ -6,17 +6,14 @@ class DynamicController < ApplicationController
   	puts "@"*60
 
     @gossip = Gossip.all
-
-
+    #puts @gossip
 
 
 	end
 	
-	def first_name
-		
-	end
+  def one_gossip
 
-
+  end
 
 
 
