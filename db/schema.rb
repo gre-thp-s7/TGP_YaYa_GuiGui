@@ -25,9 +25,9 @@ ActiveRecord::Schema.define(version: 2019_01_31_191841) do
   create_table "gossips", force: :cascade do |t|
     t.string "title"
     t.text "content"
+    t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "user_id"
     t.index ["user_id"], name: "index_gossips_on_user_id"
   end
 
@@ -62,14 +62,12 @@ ActiveRecord::Schema.define(version: 2019_01_31_191841) do
     t.text "description"
     t.string "email"
     t.integer "age"
+    t.bigint "city_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "city_id"
     t.index ["city_id"], name: "index_users_on_city_id"
   end
 
-  add_foreign_key "gossips", "users"
   add_foreign_key "join_table_tag_gossips", "gossips"
   add_foreign_key "join_table_tag_gossips", "tags"
-  add_foreign_key "users", "cities"
 end
