@@ -6,7 +6,8 @@ ruby '2.5.1'
 ############### gem ajoutée par nos soins #############
 gem 'execjs'
 gem 'therubyracer'   #sur mon mac sinon ca fail
-
+gem 'table_print'
+gem 'faker'
 
 
 

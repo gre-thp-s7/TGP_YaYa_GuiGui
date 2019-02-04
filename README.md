@@ -32,3 +32,13 @@ les link utiles pour tester :
 le template boots-strap utilisé
 https://startbootstrap.com/template-overviews/heroic-features/
 
+
+##  :dizzy: Details 
+
+Notre application est composé de 6 modèles User, City, Gossip, Tag, Join_Table_Tag_Gossip et Message.
+* User lié à City avec first_name, last_name, description, email, age, city_id comme attributs ;
+* City avec name et zip_code comme attributs ;
+* Gossip lié à User avec title et content comme attributs;
+* Tag avec title comme attribut;
+* Join_Table_Tag_Gossip lié à Gossip et Tag avec gossip_id et tag_id comme attributs;
+* Message lié à Recipient et Sender avec Content, recipient_id et sender_id comme attributs.
