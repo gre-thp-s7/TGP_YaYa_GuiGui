@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'rspec-rails'
 
 RSpec.describe Gossip, type: :model do
 	
