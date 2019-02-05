@@ -7,4 +7,8 @@ class User < ApplicationRecord
 	validates :first_name, presence: true
   validates :last_name, presence: true
 	validates :email, presence: true, uniqueness: true, format: { with: /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/, message: "email adress please" }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8f9fedd30f60367e2dc2b234e80378a93e21eb23
 end
