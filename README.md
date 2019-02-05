@@ -13,27 +13,20 @@ voila, tu est sur nortre super site/appli TGP
 les link utiles pour tester :
 	- `/team`
 	- `/contact`
-
-	
-
-
+si tu veux un msg de bienvenue (comme inddiqué par les consignes ->)
+	- `/home/ton_pseudo_qui_déchire`
 
 
-
-
-### La TEAM !
+### La "TEAM" !
 
 - Iannis
 - Guillaume
 
+- Qentin 
 
 
-#liens utilisé
-le template boots-strap utilisé
-https://startbootstrap.com/template-overviews/heroic-features/
 
-
-##  :dizzy: Details 
+##  :dizzy: Details ()
 
 Notre application est composé de 6 modèles User, City, Gossip, Tag, Join_Table_Tag_Gossip et Message.
 * User lié à City avec first_name, last_name, description, email, age, city_id comme attributs ;

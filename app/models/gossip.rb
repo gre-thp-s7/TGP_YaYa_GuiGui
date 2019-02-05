@@ -3,5 +3,7 @@ class Gossip < ApplicationRecord
 	has_many :join_table_tag_gossips
 	has_many :tags, through: :join_table_tag_gossips
 
+  validates :content, presence: true
+  validates :title, presence: true
 
 end
