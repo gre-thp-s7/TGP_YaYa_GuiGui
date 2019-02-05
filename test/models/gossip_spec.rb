@@ -25,9 +25,6 @@ RSpec.describe Gossip, type: :model do
     		bad_gossip = Gossip.create(title: 'titre')
     		expect(bad_gossip).not_to be_valid
     	end
-    end    
-		
-
-
-
-end
+		end
+	end
+end    

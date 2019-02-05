@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe TonModel, type: :model do
+RSpec.describe User, type: :model do
 
   before(:each) do 
     @user = User.create(first_name: "beber", last_name: "atroispoilaucul", email: "beber_du_95@yopmail.com")
@@ -13,8 +13,6 @@ RSpec.describe TonModel, type: :model do
     it "is valid with valid attributes" do
       expect(@user).to be_a(User)
       expect(@user).to be_valid
-      	
-      end)
     end
 
     describe "#first_name" do

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe TonModel, type: :model do
+RSpec.describe City, type: :model do
 
   before(:each) do 
     @city = City.create(name: "nom_de_la_ville", zip_code: "38 000" )

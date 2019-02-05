@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe TonModel, type: :model do
+RSpec.describe Tag, type: :model do
 
   before(:each) do 
     @tag = Tag.create(title: "nom_du_tag")
